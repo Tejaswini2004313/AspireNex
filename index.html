@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+
+<body>
+  <div class="wrapper">
+    <div class="cover cover-left"></div>
+    <div class="cover cover-right turn"></div>
+
+
+    <div class="book">
+      <div class="book-page page-left">
+        <div class="profile-page">
+          <img src="photo.jpeg" alt="" />
+          <h1>Tejaswini Patkar</h1>
+          <h3>Web Developer</h3>
+
+
+          <div class="social-media">
+            <a href="#"><i class="bx bxl-linkedin"> </i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          </div>
+
+
+          <p>Hi, I'm Tejaswini Patkar. Energetic and passionate college student, ready to learn new things and explore
+            the fields. Interested in developing technology, pursuing B.Tech Computer Engineering. Aim to use knowledge
+            and contribute capable, to explore potential by givingbest to organization.
+          </p>
+
+
+          <div class="btn-box">
+            <a href="#" class="btn">Download CV</a>
+            <a href="#" class="btn contact-me">Contact Me</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- page 1 & 2 -->
+      <div class="book-page page-right turn" id="turn-1">
+        <!-- page 1 (education) -->
+        <div class="page-front">
+          <h1 class="title">Education</h1>
+
+
+          <div class="educ-box">
+            <div class="educ-content">
+              <span class="year"><i class='bx bxs-calendar'></i>Expected Graduation May 2025</span>
+              <h3>MKSSS’s Cummins College of Engineering for Women, Pune</h3>
+              <p>B.Tech - Computer Engineering <br /> CGPA : 8.3</p>
+            </div>
+
+
+            <div class="educ-content">
+              <span class="year"><i class='bx bxs-calendar'></i>June 2020 - May 2021
+              </span>
+              <h3>Adarsh HighSchool & Junior College Daryapur</h3>
+              <p>12th : 95.17</p>
+            </div>
+
+
+            <div class="educ-content">
+              <span class="year"><i class='bx bxs-calendar'></i>June 2018 - May 2019</span>
+              <h3>Adarsh HighSchool & Junior College Daryapur</h3>
+              <p>10th : 94.00</p>
+            </div>
+          </div>
+
+          <span class="number-page">1</span>
+
+
+          <!-- next button -->
+          <span class="nextprev-btn" data-page="turn-1">
+            <i class='bx bx-chevron-right'></i>
+          </span>
+        </div>
+
+
+        <!-- page 2 (skills) -->
+        <div class="page-back">
+          <h1 class="title">Skills & Achivements</h1>
+          <div class="skills-box">
+            <div class="skills-content">
+              <h3>Skills</h3>
+              <p>Languages</p>
+              <div class="content">
+                <span><i class='bx bxl-java'></i>Java</span>
+                <span><img
+                    src="data:image/png;base64,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"
+                    style="margin-top: 0.3rem;">SQL</span>
+                <span><i class='bx bxl-html5'></i>HTML</span>
+                <span><i class='bx bxl-css3'></i>CSS</span>
+              </div>
+              <p>Data Structures and Algorithm</p>
+              <p>Graphic Designing</p>
+            </div>
+
+
+            <div class="skills-content">
+              <h3>Achievements</h3>
+              <p>
+              <p>Working as Graphic Designer at college club</p>
+              <p>1st Runner Up Team in Dodgeball</p>
+              <p>Participated in ALL INDIA WOMEN HACKATHON</p>
+              </p>
+            </div>
+
+
+          </div>
+          <span class="number-page">2</span>
+
+
+          <!-- prev button -->
+          <span class="nextprev-btn back" data-page="turn-1">
+            <i class='bx bx-chevron-left'></i>
+          </span>
+        </div>
+      </div>
+
+
+      <!-- page 3 & 4 -->
+      <div class="book-page page-right turn" id="turn-2">
+        <!-- page 3 (projects) -->
+        <div class="page-front">
+          <h1 class="title">Projects</h1>
+          <div class="projects-box">
+            <div class="projects-content">
+              <h4>Social Media Management</h4>
+              <small>A database for a social media site including users, interaction to other users, posts, and
+                activities as social media refers to online platforms and websites that allow users to create and share
+                content or to participate in social networking</small>
+            </div>
+
+
+            <div class="projects-content">
+              <h4>Admission Process System</h4>
+              <small>A system build for admission processes in any college using DSA in Java. It selects applicants
+                based on their entrance exam marks then given an admission. Fee Payment and cancellation of an applicant
+                is also available
+              </small>
+            </div>
+
+
+            <div class="projects-content">
+              <h4>Book Thrifting App</h4>
+              <small>An android application designed to facilitate the connection between book sellers and buyers. This
+                application aims to create an efficient platform where sellers can list their books and buyers can
+                discover & purchase them</small>
+            </div>
+
+
+            <div class="projects-content">
+              <h4>Sudoku Solver</h4>
+              <small>A python project which takes an incomplete sudoku from the user and solves it. In this project, the
+                user has to enter values of cells partially-filled grid and then get the solution</small>
+            </div>
+          </div>
+          <span class="number-page">3</span>
+
+
+          <!-- next button -->
+          <span class="nextprev-btn" data-page="turn-2">
+            <i class='bx bx-chevron-right'></i>
+          </span>
+        </div>
+
+
+        <!-- page 4 (contact me) -->
+        <div class="page-back">
+          <h1 class="title">Contact Me</h1>
+          <div class="contact-box">
+            <form action="#">
+              <input type="text" class="field" placeholder="Full Name" required>
+              <input type="email" class="field" placeholder="Email Address" required>
+              <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+              <input type="submit" class="btn" value="Send Message">
+            </form>
+          </div>
+          <span class="number-page">4</span>
+
+
+          <!-- prev button -->
+          <span class="nextprev-btn back" data-page="turn-2">
+            <i class='bx bx-chevron-left'></i>
+          </span>
+          <a href="#" class="back-profile">
+            <p>Profile</p>
+            <i class='bx bxs-user'></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
